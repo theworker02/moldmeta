@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/moldmeta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mold digests and meta fingerprints for local integrity checks.",
+  "bin": {
+    "moldmeta": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/moldmeta.git"
+  },
+  "homepage": "https://theworker02.github.io/moldmeta/",
+  "keywords": [
+    "mold",
+    "meta",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
